@@ -1,0 +1,62 @@
+header {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  background-color: #fefefe;
+}
+.Top_Bar {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.Menu_Bar {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Menu_Bar img {
+  width: 150px;
+}
+.Menu_Bar div {
+  margin-left: 80px;
+  width: 100px;
+  height: 60px;
+  justify-content: center;
+  text-align: center;
+  line-height: 60px;
+}
+.Menu_list {
+  font-family: fantasy;
+  font-weight: 400;
+}
+.Link_Bar {
+  width: 200px;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+}
+.Link_Bar i {
+  font-size: 39px;
+}
+video {
+  width: 100%;
+  height: 1100px;
+}
+#facebook {
+  color: #4867aa;
+}
+#instagram {
+  color: #b24c9f;
+}
+#twitter {
+  color: #2aa9e0;
+}
+#youtube {
+  color: #ff0000;
+}
