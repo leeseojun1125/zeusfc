@@ -1,0 +1,94 @@
+header {
+  width: 100%;
+  height: 145px;
+  position: fixed;
+  background: radial-gradient(#fefefe 50%, #cccccc);
+}
+
+.Top_Bar {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes incomingAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(-180px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+header {
+  animation: incomingAnim 0.5s ease-out forwards;
+}
+.Menu_Bar {
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Menu_Bar div {
+  height: 72px;
+  margin-top: 36px;
+  margin-bottom: 1px;
+  justify-content: center;
+  text-align: center;
+  line-height: 72px;
+}
+.Top_Bar img {
+  width: 150px;
+  margin-left: 20px;
+}
+#First_list {
+  margin-left: 10px;
+}
+.Menu_list {
+  width: 70%;
+  font-family: fantasy;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Menu_list:hover {
+  color: #f8f9fb;
+  cursor: pointer;
+  background-color: #272727;
+  border-radius: 16px;
+}
+.Link_Bar {
+  width: 15%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 18px;
+}
+.Link_Bar i {
+  font-size: 39px;
+}
+.Link_Bar i:hover {
+  cursor: pointer;
+}
+video {
+  margin-top: 5%;
+  width: 100%;
+  height: 1050px;
+}
+#facebook {
+  color: #4867aa;
+}
+#instagram {
+  color: #dc4984;
+}
+#twitter {
+  color: #2aa9e0;
+}
+#youtube {
+  color: #ff0000;
+}

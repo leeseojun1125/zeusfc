@@ -1,0 +1,9 @@
+@import "./view/header.css";
+@import "./view/main.css";
+@import "./view/footer.css";
+@import "./view/nav.css";
+@import "./view/screen.css";
+
+body {
+  background-color: #000101;
+}
