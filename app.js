@@ -10,8 +10,7 @@ import routes from "./routes";
 const app = express();
 
 app.use(helmet());
-app.set("view engine", "ejs");
-app.engine("html", require("ejs").renderFile);
+app.set("view engine", "pug");
 app.use("/static", express.static("static"));
 app.use(cookieParser()); //사용자 인증
 app.use(bodyParser.json()); //사진 업로드
