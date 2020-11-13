@@ -4,7 +4,8 @@
   "description": "ZeusFC WebSite",
   "main": "routes.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js --delay 2",
+    "start": "nodemon --exec babel-node build/index.js --delay 2",
+    "prestart": "npm run build"
   },
   "repository": {
     "type": "git",
