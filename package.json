@@ -9,8 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leeseojun1125/zeusfc.git",
-    
+    "url": "git+https://github.com/leeseojun1125/zeusfc.git"
   },
   "author": "LSJ",
   "license": "ISC",
